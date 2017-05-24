@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PhotoView.h"
 
 @interface ViewController : UIViewController<UICollectionViewDelegate,UICollectionViewDataSource>
 @property(nonatomic,strong)UICollectionView *photoView;
 @property(nonatomic,copy)NSMutableArray *PhotoArr;
+@property(nonatomic,strong)PhotoView *imageShow;
 
 @end
 

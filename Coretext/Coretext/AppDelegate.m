@@ -1,13 +1,12 @@
 //
 //  AppDelegate.m
-//  新三小
+//  Coretext
 //
-//  Created by Zdst on 17/5/18.
+//  Created by Zdst on 17/5/22.
 //  Copyright © 2017年 yqh. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,11 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    [self.window makeKeyAndVisible];
-    ViewController *vc = [[ViewController alloc]init];
-    UINavigationController *nvc = [[UINavigationController alloc]initWithRootViewController:vc];
-    self.window.rootViewController = nvc;
     return YES;
 }
 

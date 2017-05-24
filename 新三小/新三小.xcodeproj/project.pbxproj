@@ -15,6 +15,8 @@
 		B829A5631ECDA3EB00E355AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B829A5611ECDA3EB00E355AA /* LaunchScreen.storyboard */; };
 		B829A56E1ECDA3EB00E355AA /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B829A56D1ECDA3EB00E355AA /* ___Tests.m */; };
 		B829A5791ECDA3EB00E355AA /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B829A5781ECDA3EB00E355AA /* ___UITests.m */; };
+		B896B1501ECE961A0071756B /* PhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = B896B14F1ECE961A0071756B /* PhotoView.m */; };
+		B896B1521ECED2940071756B /* addImg.png in Resources */ = {isa = PBXBuildFile; fileRef = B896B1511ECED2940071756B /* addImg.png */; };
 		CC37C357AF76C424031D3EC7 /* libPods-新三小.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 294640AC207FF62157B22ED4 /* libPods-新三小.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +56,9 @@
 		B829A5741ECDA3EB00E355AA /* 新三小UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "新三小UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B829A5781ECDA3EB00E355AA /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		B829A57A1ECDA3EB00E355AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B896B14E1ECE961A0071756B /* PhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoView.h; sourceTree = "<group>"; };
+		B896B14F1ECE961A0071756B /* PhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoView.m; sourceTree = "<group>"; };
+		B896B1511ECED2940071756B /* addImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addImg.png; sourceTree = "<group>"; };
 		FAD4B9963CCFAF182DED7C90 /* Pods-新三小.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-新三小.debug.xcconfig"; path = "Pods/Target Support Files/Pods-新三小/Pods-新三小.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +121,9 @@
 		B829A5521ECDA3EB00E355AA /* 新三小 */ = {
 			isa = PBXGroup;
 			children = (
+				B896B1511ECED2940071756B /* addImg.png */,
+				B896B14E1ECE961A0071756B /* PhotoView.h */,
+				B896B14F1ECE961A0071756B /* PhotoView.m */,
 				B829A5561ECDA3EB00E355AA /* AppDelegate.h */,
 				B829A5571ECDA3EB00E355AA /* AppDelegate.m */,
 				B829A5591ECDA3EB00E355AA /* ViewController.h */,
@@ -279,6 +287,7 @@
 				B829A5631ECDA3EB00E355AA /* LaunchScreen.storyboard in Resources */,
 				B829A5601ECDA3EB00E355AA /* Assets.xcassets in Resources */,
 				B829A55E1ECDA3EB00E355AA /* Main.storyboard in Resources */,
+				B896B1521ECED2940071756B /* addImg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +363,7 @@
 				B829A55B1ECDA3EB00E355AA /* ViewController.m in Sources */,
 				B829A5581ECDA3EB00E355AA /* AppDelegate.m in Sources */,
 				B829A5551ECDA3EB00E355AA /* main.m in Sources */,
+				B896B1501ECE961A0071756B /* PhotoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
